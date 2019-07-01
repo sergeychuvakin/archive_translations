@@ -1,3 +1,25 @@
+import sys
+import os 
+import docx2txt as d2t
+#from docx import Document
+from datetime import datetime
+import pandas as pd
+from polyglot.detect import Detector
+import re
+import operator as op
+import pandas as pd
+#import win32com.client
+#import codecs
+import collections 
+import math
+import textract 
+from zipfile import ZipFile
+
+import patoolib
+
+
+
+
 def languages_intext(text):
     '''
     Function requires polyglot.detect.Detector class
